@@ -1,9 +1,9 @@
 ﻿$packageName  = 'teamspeak-server' 
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url          = 'https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_win32-3.5.1.zip'
-$checksum     = '9BCA89C7DEC5164764191FBA103FE32FB06241598B6E93655C4E8D6A0FE3C81D'
-$url64        = 'https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_win64-3.5.1.zip'
-$checksum64   = '7102F6EDEB271F186170D1F1EDB287E3DE9BF90E943A312F1FDCEBF2837070CA'
+$url          = 'https://files.teamspeak-services.com/releases/server/3.13.3/teamspeak3-server_win32-3.13.3.zip'
+$checksum     = 'e69ae286b0b19bf1b0a86995348e75a1f2e4f64f546d18c917fb9f8bda482605'
+$url64        = 'https://files.teamspeak-services.com/releases/server/3.13.3/teamspeak3-server_win64-3.13.3.zip'
+$checksum64   = 'f69c37d4f755d432523b431396834836da30841a4fc4f2fd62b22a33e89f4e7e'
 $shortcutName = 'TeamSpeak Server.lnk'
 $exe          = 'ts3server.exe'
 
